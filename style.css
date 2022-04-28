@@ -1,0 +1,239 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    min-height: 14vh;
+    background-color: rgb(0, 0, 0);
+}
+
+body {
+    font-family: Poppins, sans-serif;
+}
+
+.logo {
+    color: white;
+    font-weight: normal;
+    box-shadow: 3px 3px 10px rgb(255, 255, 255);
+    padding: 12px;
+    width: 250px;
+    text-align: center;
+}
+
+.nav-links li {
+    list-style: none;
+}
+
+.nav-links a:hover {
+    border-bottom: 1px solid red, aqua, coral, #ff4d, #f9004d;
+}
+
+.nav-links {
+    display: flex;
+    width: 35%;
+
+    justify-content: space-around;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: white;
+    letter-spacing: 3px;
+
+    font-size: 17px;
+}
+
+
+.main {
+    font-size: 45px;
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+    text-align: center;
+    margin-top: 45px;
+}
+
+body {
+    background-color: black;
+}
+
+.nav-links a::after {
+    content: '';
+    display: block;
+    width: 0;
+    height: 2px;
+    background: rgb(255, 255, 255);
+    transition: width .4s;
+}
+
+.nav-links a:hover::after {
+    width: 100%;
+
+}
+
+.main::after {
+    content: '';
+    display: block;
+    width: 27%;
+    width: 0;
+    height: 2px;
+    background: rgb(17, 255, 235);
+    transition: width .4s;
+}
+
+.main:hover::after {
+    width: 78%;
+    cursor: pointer;
+
+}
+
+#fixit {
+    width: 300px;
+    height: 300px;
+    border: 1px solid aquamarine;
+    border-radius: 15px;
+    align-items: center;
+    margin-left: 500px;
+    margin-bottom: 70px;
+    padding: 23px;
+}
+
+.p1 {
+    font-size: 38px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+    text-align: center;
+    color: white;
+}
+
+#head1::after {
+    content: '';
+    display: block;
+    width: 27%;
+    width: 0;
+    height: 2px;
+    background: rgb(230, 12, 114);
+    transition: width .4s;
+    cursor: pointer;
+}
+
+#head1:hover::after {
+    width: 70%;
+    cursor: pointer;
+}
+.apple{
+    margin-left:500px ;
+    width: 250px;
+    height: 300px;
+
+}
+.p2{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    border-radius: 20px;
+    background-color: rgb(0, 0, 0);
+    color: rgb(179, 179, 179);
+    font-size: 23px;
+    letter-spacing: 2px;
+    border: 2px solid #08bf88;
+    box-shadow: 5px 5px 20px rgb(227, 121, 190);
+    padding: 10px;
+    text-align: center;
+}
+#head2::after {
+    content: '';
+    display: block;
+    width: 27%;
+    width: 0;
+    height: 2px;
+    background: rgb(255, 255, 255);
+    transition: width .4s;
+    cursor: pointer;
+}
+
+#head2:hover::after {
+    width: 70%;
+    cursor: pointer;
+}
+#products{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.p3{
+    font-size: 34px;
+    margin-top: 34px;
+    margin-bottom: 34px;
+    color: white;
+    text-align: center;
+}
+
+.heading_iphone{
+    font-size: 29px;
+    color: aqua;
+    text-align:center;
+}
+.para{
+    font-size: 20px;
+    color: aquamarine;
+    text-align: center;
+     padding: 12px;
+     border: 2px solid red;
+}
+
+.para:hover{
+    border-radius: 20px;
+    box-shadow: 0px 3px 10px white;
+    transition: .4s;
+}
+.iphone1{
+    width: 300px;
+    height: 300px;
+    border: 1px solid aquamarine;
+    border-radius: 15px;
+    align-items: center;
+    margin-left: 500px;
+    padding: 23px;  
+    margin-top: 56px;
+    margin-bottom: 56px;
+}
+#macs{
+    width: 500px;
+    height:500px;
+   border-radius: 20px ;
+   border-bottom: 1px solid white;
+    border: 1px solid aqua;
+    margin-left: 400px;
+    margin-top: 59px;
+
+
+}
+a{
+
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.links{
+  color: white;
+display: block;
+}
+.links a{
+    color: rgb(255, 255, 255);
+}
+.links h2{
+text-align: center;
+
+}
+.go{
+    font-size: 34px;
+    text-align: center;
+}
+.links a{
+    text-decoration: none;
+}
+.links li{
+list-style: none;
+}
+.links a:hover{
+    text-decoration: underline;
+}
